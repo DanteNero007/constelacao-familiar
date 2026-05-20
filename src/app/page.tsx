@@ -106,8 +106,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="relative order-1 md:order-2">
-              <img alt="Retrato de uma terapeuta empática e acolhedora" className="rounded-lg shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000" src="/images/terapeuta.png"/>
+            <div className="relative order-1 md:order-2 group cursor-pointer" tabIndex={0}>
+              <img alt="Retrato de uma terapeuta empática e acolhedora" className="rounded-lg shadow-2xl grayscale group-hover:grayscale-0 group-focus:grayscale-0 group-active:grayscale-0 transition-all duration-1000" src="/images/terapeuta.png"/>
             </div>
           </div>
         </section>
