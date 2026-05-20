@@ -21,11 +21,11 @@ export default function Home() {
           <div className="absolute inset-0 z-0 opacity-50 pointer-events-none" style={{ backgroundImage: 'url(/images/bg_sketch_1.png)', backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', mixBlendMode: 'multiply' }}></div>
           <div className="max-w-container-max mx-auto flex flex-col items-center text-center relative z-10 mt-8 md:mt-0">
             <span className="inline-block px-4 py-1 mb-2 md:mb-4 border border-secondary text-secondary rounded-full font-label-sm uppercase tracking-[0.2em] animate-pulse bg-white/50 backdrop-blur-sm">
-              Retome o Controle da sua Jornada
+              Retome o Controle da sua Vida
             </span>
             
-            <h1 className="font-headline-lg text-[32px] md:text-[42px] lg:text-[48px] font-bold leading-[1.1] text-primary mb-4 md:mb-6 max-w-4xl tracking-tight">
-              Sente que está vivendo um <span className="italic font-serif text-secondary font-normal">roteiro</span> que não foi escrito por você?
+            <h1 className="font-headline-lg text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.2] text-primary mb-4 md:mb-6 max-w-4xl tracking-tight">
+              Quer descobrir a <span className="italic font-serif text-secondary font-normal">raiz invisível</span> que te bloqueia?
             </h1>
             
             {/* Video Placeholder */}
@@ -40,8 +40,13 @@ export default function Home() {
 
             {/* CTA Button */}
             <a href="#oferta" className="luxury-gradient px-8 py-3 rounded-full text-primary font-bold text-body-lg uppercase tracking-wider hover:opacity-90 active:scale-95 transition-all shadow-lg shadow-secondary/20 mb-6 w-full md:w-auto text-center">
-              Quero Destravar meu Sistema
+              Quero enxergar o problema
             </a>
+
+            {/* Copy */}
+            <p className="font-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+              Você não erra de propósito, só repete uma história que não é sua.
+            </p>
           </div>
         </section>
 
@@ -94,15 +99,15 @@ export default function Home() {
                 <p className="font-body-md leading-relaxed">
                   Entendemos que você não é uma ilha. O sistema criado ao seu redor é o que está realmente bloqueando sua vida. A Constelação Familiar funciona como a chave para destravar esses nós, permitindo que a energia e o sucesso voltem a fluir.
                 </p>
-                <div className="bg-surface-container-low p-6 rounded-xl border-l-4 border-secondary">
-                  <p className="italic font-medium text-primary">
-                    "Quando o sistema entra em ordem, o esforço diminui e os resultados aparecem."
+                <div className="border-l-4 border-secondary pl-6">
+                  <p className="font-serif italic text-primary text-[20px] leading-relaxed">
+                    "Sidineia Danetti, terapeuta sistêmica há mais de 5 anos."
                   </p>
                 </div>
               </div>
             </div>
             <div className="relative order-1 md:order-2">
-              <img alt="Simbolismo de conexão e ordem" className="rounded-lg shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAPi_jumorlm7ombhIrefYLOExfLUGhB7TLbHFsYZAMhTp7XmBtCsofxZpilCiIq7oKsZzz2clInYReRV02KaieUJI8NRcYDBeEXu6ySqyarp8fv1S_8CgaAMloRpVNIFOo0DEBF9Fn7wojKYdBOvPiPFtM4Z2_mMhTHZrJ0HzQz8fxAkp2ABbzODeS4E5ieHB6Fjc-s1aXJiIrPKo7dLHwimINwWRzdbA5jBvNiX7ihy3YlQ6TiGGCnixinX-7oZWLz4QDQtaUqFW"/>
+              <img alt="Retrato de uma terapeuta empática e acolhedora" className="rounded-lg shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000" src="/images/terapeuta.png"/>
             </div>
           </div>
         </section>
@@ -185,8 +190,8 @@ export default function Home() {
           <div className="max-w-3xl mx-auto bg-white/80 backdrop-blur-md rounded-3xl overflow-hidden shadow-2xl border border-secondary/20 relative z-10">
             <div className="luxury-gradient h-4"></div>
             <div className="p-12 text-center">
-              <h2 className="font-headline-lg text-[48px] font-semibold leading-[1.2] text-primary mb-2">Mentoria Caminho da Alma</h2>
-              <p className="text-on-surface-variant mb-8 font-medium">Um mergulho sistêmico direto ao ponto para destravar sua base e liberar seu futuro.</p>
+              <h2 className="font-headline-lg text-[48px] font-semibold leading-[1.2] text-primary mb-2">Sessão de Constelação Familiar</h2>
+              <p className="text-on-surface-variant font-body-lg mb-8">O passo definitivo para reorganizar o seu sistema e destravar sua vida</p>
               <div className="flex flex-col items-center mb-10">
                 <span className="text-on-surface-variant line-through text-body-md opacity-60">Investimento Regular: R$ 5.997</span>
                 <div className="flex items-baseline gap-2">
@@ -196,7 +201,7 @@ export default function Home() {
                 <span className="text-on-surface-variant text-body-md mt-2">ou R$ 3.997 à vista</span>
               </div>
               <button className="w-full luxury-gradient py-6 rounded-xl text-primary font-extrabold text-xl shadow-lg hover:scale-[1.02] transition-transform mb-8 uppercase tracking-widest">
-                Quero destravar meu sistema
+                Quero enxergar o problema
               </button>
               <div className="flex items-center justify-center gap-8 border-t border-surface-variant pt-8">
                 <div className="flex flex-col items-center">
