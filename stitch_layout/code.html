@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sidineia Danetti | Terapia Sistêmica e Constelação Familiar</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-secondary-fixed-variant": "#5d4201",
+                "surface": "#fcf9f8",
+                "tertiary": "#1c1d1b",
+                "tertiary-fixed": "#e4e2de",
+                "surface-variant": "#e5e2e1",
+                "on-secondary-fixed": "#261900",
+                "surface-dim": "#dcd9d9",
+                "surface-container-low": "#f6f3f2",
+                "inverse-surface": "#313030",
+                "inverse-on-surface": "#f3f0ef",
+                "outline-variant": "#c0c9c2",
+                "on-primary-fixed": "#002114",
+                "error": "#ba1a1a",
+                "tertiary-fixed-dim": "#c8c6c3",
+                "primary-fixed-dim": "#a0d1b8",
+                "primary-container": "#043927",
+                "on-error-container": "#93000a",
+                "on-secondary-container": "#785a1a",
+                "background": "#fcf9f8",
+                "secondary-container": "#fed488",
+                "on-tertiary-container": "#9a9a96",
+                "surface-bright": "#fcf9f8",
+                "surface-container-highest": "#e5e2e1",
+                "secondary": "#775a19",
+                "outline": "#717973",
+                "on-primary-fixed-variant": "#204f3c",
+                "secondary-fixed": "#ffdea5",
+                "secondary-fixed-dim": "#e9c176",
+                "on-primary": "#ffffff",
+                "on-surface": "#1c1b1b",
+                "on-tertiary-fixed": "#1b1c1a",
+                "surface-container-high": "#eae7e7",
+                "on-tertiary-fixed-variant": "#474744",
+                "error-container": "#ffdad6",
+                "primary-fixed": "#bbeed3",
+                "on-background": "#1c1b1b",
+                "surface-container": "#f0eded",
+                "on-tertiary": "#ffffff",
+                "on-primary-container": "#73a48c",
+                "inverse-primary": "#a0d1b8",
+                "tertiary-container": "#31322f",
+                "on-secondary": "#ffffff",
+                "surface-tint": "#396752",
+                "on-error": "#ffffff",
+                "on-surface-variant": "#414944",
+                "primary": "#002215",
+                "surface-container-lowest": "#ffffff"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+            },
+            "spacing": {
+                "gutter": "24px",
+                "section-gap": "120px",
+                "margin-desktop": "64px",
+                "container-max": "1200px",
+                "margin-mobile": "20px",
+                "unit": "8px"
+            },
+            "fontFamily": {
+                "body-md": ["Montserrat"],
+                "display-lg": ["Playfair Display"],
+                "headline-lg-mobile": ["Playfair Display"],
+                "headline-lg": ["Playfair Display"],
+                "label-sm": ["Montserrat"],
+                "body-lg": ["Montserrat"],
+                "headline-md": ["Playfair Display"]
+            },
+            "fontSize": {
+                "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                "headline-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .luxury-gradient {
+            background: linear-gradient(45deg, #775a19 0%, #fed488 50%, #e9c176 100%);
+        }
+        .emerald-glow {
+            box-shadow: 0 20px 40px -15px rgba(4, 57, 39, 0.1);
+        }
+        .video-frame {
+            position: relative;
+            padding: 2px;
+            background: linear-gradient(45deg, #775a19, #fed488, #775a19);
+            border-radius: 12px;
+        }
+        .bg-pattern {
+            background-image: radial-gradient(#e5e2e1 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-6 md:px-margin-desktop py-4 max-w-full mx-auto bg-surface/80 backdrop-blur-md shadow-sm">
+<div class="font-display-lg text-body-lg font-bold text-primary">Sidineia Danetti</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#bloqueios">O Peso</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#metodo">O Método</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#depoimentos">Histórias</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#faq">Dúvidas</a>
+</div>
+<a class="luxury-gradient px-6 py-2.5 rounded-full text-primary font-bold text-label-sm uppercase tracking-wider hover:opacity-90 active:scale-95 transition-all" href="#oferta">
+        Falar com Sidineia
+    </a>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative pt-32 pb-section-gap px-margin-mobile md:px-margin-desktop overflow-hidden bg-pattern">
+<div class="max-w-container-max mx-auto flex flex-col items-center text-center">
+<span class="inline-block px-4 py-1 mb-6 border border-secondary text-secondary rounded-full font-label-sm uppercase tracking-[0.2em] animate-pulse">
+                Retome o Controle da sua Jornada
+            </span>
+<h1 class="font-display-lg text-4xl md:text-5xl lg:text-display-lg text-primary max-w-5xl mb-6">
+                Sente que está vivendo um <span class="italic font-normal">roteiro</span> que não foi escrito por você?
+            </h1>
+<p class="font-body-lg text-on-surface-variant max-w-3xl mb-12">
+                Entenda como a Terapia Sistêmica e a Constelação Familiar destravam o sistema ao seu redor que está impedindo sua vida de avançar.
+            </p>
+<div class="w-full max-w-4xl mb-16 video-frame emerald-glow group">
+<div class="aspect-video bg-primary-container rounded-[10px] flex items-center justify-center relative overflow-hidden">
+<img alt="Ambiente acolhedor e profissional" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzGEFJX55BQ7LqqFyr9o0ztjSgsSuitP-Dpiyu-X-PyWOhybMAMGlrT4Udp1uffG45LVM_ZSByIjnfsHe9Ns0oI1c9eH76pzVOLcx9bAYhgutxLAF2Ok6HWGBd90yz2Tm2ExXDjXodVWY6YpmT1r69vpxvJNLetBpnLepoWNrKunhtFKCL6KbDEL8fZwJnvuDwqXRC9EXIE-PZLNIPvIkDpb7Gd5ybEpo715kKAEriB-IAAHQmZ8QRwNkMvBMIxZmdqW-Gdl9g9cwP"/>
+<button class="z-10 w-20 h-20 rounded-full bg-surface/20 backdrop-blur-md flex items-center justify-center border border-secondary/30 hover:bg-secondary/20 transition-all">
+<span class="material-symbols-outlined text-secondary text-5xl">play_arrow</span>
+</button>
+</div>
+</div>
+<a class="luxury-gradient px-10 py-5 rounded-lg text-primary font-bold text-body-lg shadow-xl hover:shadow-secondary/20 transition-all active:scale-95" href="#oferta">
+                Quero Destravar meu Sistema
+            </a>
+</div>
+</section>
+<!-- The 3 Main Pain Points (Visual Grid) -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low" id="bloqueios">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-primary mb-4">Onde a sua vida está paralisada?</h2>
+<p class="text-on-surface-variant font-body-md">Identifique os sinais de que seu sistema está em desordem</p>
+</div>
+<div class="grid md:grid-cols-3 gap-gutter">
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-surface-variant hover:border-secondary transition-colors group">
+<div class="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">family_history</span>
+</div>
+<h4 class="font-headline-md text-xl mb-4 text-primary">Vivendo a vida dos pais</h4>
+<p class="text-on-surface-variant text-body-md">Você tem a sensação de estar repetindo um roteiro que não foi escrito por você?</p>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-surface-variant hover:border-secondary transition-colors group">
+<div class="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">sync_problem</span>
+</div>
+<h4 class="font-headline-md text-xl mb-4 text-primary">Conflitos Cicatrizados</h4>
+<p class="text-on-surface-variant text-body-md">A gente briga sempre pelo mesmo motivo e nunca sai do lugar.</p>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-surface-variant hover:border-secondary transition-colors group">
+<div class="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">lock_open</span>
+</div>
+<h4 class="font-headline-md text-xl mb-4 text-primary">Vida Travada</h4>
+<p class="text-on-surface-variant text-body-md">A vida mudou, as pessoas mudaram e você continua parado no mesmo caminho.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- The "Confusion" Solution / Why Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-white overflow-hidden" id="metodo">
+<div class="max-w-container-max mx-auto grid md:grid-cols-2 gap-16 items-center">
+<div class="order-2 md:order-1">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-8">
+                    O que é, de fato, a <span class="text-secondary italic">Terapia Sistêmica</span>?
+                </h2>
+<div class="space-y-6 text-on-surface-variant">
+<p class="font-body-lg">
+                        Não é mágica, é olhar para a estrutura. A Terapia Sistêmica é a ferramenta que analisa você e todo o sistema construído ao seu redor: sua família, seu trabalho e sua criação.
+                    </p>
+<p class="font-body-md leading-relaxed">
+                        Entendemos que você não é uma ilha. O sistema criado ao seu redor é o que está realmente bloqueando sua vida. A Constelação Familiar funciona como a chave para destravar esses nós, permitindo que a energia e o sucesso voltem a fluir.
+                    </p>
+<div class="bg-surface-container-low p-6 rounded-xl border-l-4 border-secondary">
+<p class="italic font-medium text-primary">
+                            "Quando o sistema entra em ordem, o esforço diminui e os resultados aparecem."
+                        </p>
+</div>
+</div>
+</div>
+<div class="relative order-1 md:order-2">
+<img alt="Simbolismo de conexão e ordem" class="rounded-lg shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAPi_jumorlm7ombhIrefYLOExfLUGhB7TLbHFsYZAMhTp7XmBtCsofxZpilCiIq7oKsZzz2clInYReRV02KaieUJI8NRcYDBeEXu6ySqyarp8fv1S_8CgaAMloRpVNIFOo0DEBF9Fn7wojKYdBOvPiPFtM4Z2_mMhTHZrJ0HzQz8fxAkp2ABbzODeS4E5ieHB6Fjc-s1aXJiIrPKo7dLHwimINwWRzdbA5jBvNiX7ihy3YlQ6TiGGCnixinX-7oZWLz4QDQtaUqFW"/>
+</div>
+</div>
+</section>
+<!-- The 3 Orders of Love -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-primary text-white overflow-hidden relative">
+<div class="absolute top-0 right-0 w-1/3 h-full bg-primary-container/20 skew-x-12 transform translate-x-1/2"></div>
+<div class="max-w-container-max mx-auto relative z-10">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-on-primary-container mb-4">A Ciência por trás da Cura</h2>
+<p class="font-body-lg text-primary-fixed-dim">Baseamos nosso trabalho nas 3 Ordens do Amor para remover qualquer confusão mística.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-secondary/50 transition-all">
+<div class="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined">join_inner</span>
+</div>
+<h5 class="text-xl font-headline-md mb-2">Pertencimento</h5>
+<p class="text-primary-fixed-dim/80 text-body-md">Todos no sistema têm o direito de pertencer. Exclusões geram desequilíbrios que você sente hoje.</p>
+</div>
+<div class="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-secondary/50 transition-all">
+<div class="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined">account_tree</span>
+</div>
+<h5 class="text-xl font-headline-md mb-2">Hierarquia (Ordem)</h5>
+<p class="text-primary-fixed-dim/80 text-body-md">Quem veio antes tem precedência. Quando você tenta ocupar o lugar dos pais, sua vida trava.</p>
+</div>
+<div class="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-secondary/50 transition-all">
+<div class="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined">balance</span>
+</div>
+<h5 class="text-xl font-headline-md mb-2">Equilíbrio</h5>
+<p class="text-primary-fixed-dim/80 text-body-md">A troca entre dar e receber precisa ser justa para que os relacionamentos e negócios prosperem.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Depoimentos -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface" id="depoimentos">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-primary">Vidas transformadas pela Ordem</h2>
+</div>
+<div class="grid md:grid-cols-2 gap-12">
+<div class="bg-white p-12 rounded-3xl shadow-sm border border-secondary/5 italic relative">
+<span class="absolute -top-6 left-10 text-6xl text-secondary opacity-20">"</span>
+<p class="text-body-lg text-on-surface-variant mb-8 leading-relaxed">
+                        "Sempre achei que os problemas financeiros eram falta de esforço. Com a Sidineia, entendi que estava repetindo a escassez dos meus avós. Quando ordenei meu sistema, o dinheiro começou a ficar."
+                    </p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed"></div>
+<div>
+<div class="font-bold text-primary">Ana Luiza Silveira</div>
+<div class="text-label-sm text-on-surface-variant">Empresária</div>
+</div>
+</div>
+</div>
+<div class="bg-white p-12 rounded-3xl shadow-sm border border-secondary/5 italic relative">
+<span class="absolute -top-6 left-10 text-6xl text-secondary opacity-20">"</span>
+<p class="text-body-lg text-on-surface-variant mb-8 leading-relaxed">
+                        "Fazer constelação tirou um peso das minhas costas que eu nem sabia que carregava. Hoje me sinto dono da minha própria história, sem precisar provar nada para ninguém."
+                    </p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed"></div>
+<div>
+<div class="font-bold text-primary">Ricardo Mendes</div>
+<div class="text-label-sm text-on-surface-variant">Consultor</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Oferta -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-highest" id="oferta">
+<div class="max-w-3xl mx-auto bg-white rounded-3xl overflow-hidden shadow-2xl border border-secondary/20">
+<div class="luxury-gradient h-4"></div>
+<div class="p-12 text-center">
+<h2 class="font-headline-lg text-primary mb-2">Mentoria Caminho da Alma</h2>
+<p class="text-on-surface-variant mb-8 font-medium">Um mergulho sistêmico direto ao ponto para destravar sua base e liberar seu futuro.</p>
+<div class="flex flex-col items-center mb-10">
+<span class="text-on-surface-variant line-through text-body-md opacity-60">Investimento Regular: R$ 5.997</span>
+<div class="flex items-baseline gap-2">
+<span class="text-secondary font-bold text-2xl">12x</span>
+<span class="text-primary font-bold text-5xl md:text-7xl">R$ 397,00</span>
+</div>
+<span class="text-on-surface-variant text-body-md mt-2">ou R$ 3.997 à vista</span>
+</div>
+<button class="w-full luxury-gradient py-6 rounded-xl text-primary font-extrabold text-xl shadow-lg hover:scale-[1.02] transition-transform mb-8 uppercase tracking-widest">
+                    Quero destravar meu sistema
+                </button>
+<div class="flex items-center justify-center gap-8 border-t border-surface-variant pt-8">
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-secondary text-4xl mb-2">spa</span>
+<span class="text-[10px] uppercase tracking-tighter font-bold">Respeito Sistêmico</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-secondary text-4xl mb-2">favorite</span>
+<span class="text-[10px] uppercase tracking-tighter font-bold">Acolhimento Real</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface" id="faq">
+<div class="max-w-3xl mx-auto">
+<h2 class="font-headline-lg text-primary text-center mb-16">Clareza para sua decisão</h2>
+<div class="space-y-4">
+<details class="group bg-white border border-surface-variant rounded-xl overflow-hidden" open="">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-primary">Preciso expor toda minha vida pessoal?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant">
+                        Não. Trabalhamos com os fatos do sistema e sua percepção interna. A Terapia Sistêmica é direta e focada na solução, respeitando seus limites e sua privacidade.
+                    </div>
+</details>
+<details class="group bg-white border border-surface-variant rounded-xl overflow-hidden">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-primary">Como sei que meu problema é sistêmico?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant">
+                        Se você sente que "nada dá certo" apesar do esforço, se repete conflitos familiares ou se sente um peso que não parece pertencer a você, há um emaranhamento no seu sistema.
+                    </div>
+</details>
+<details class="group bg-white border border-surface-variant rounded-xl overflow-hidden">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-primary">Quanto tempo leva para ver resultados?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant">
+                        Diferente da terapia convencional, a abordagem sistêmica busca movimentos rápidos. Muitos clientes sentem um alívio imediato e mudanças práticas logo após a primeira constelação.
+                    </div>
+</details>
+</div>
+</div>
+</section>
+</main>
+<footer class="w-full py-section-gap px-6 md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-gutter bg-surface-container-highest text-on-surface border-t border-surface-variant/30">
+<div class="flex flex-col gap-4 text-center md:text-left">
+<div class="font-display-lg text-body-md font-semibold text-secondary">Sidineia Danetti</div>
+<p class="font-label-sm text-on-surface-variant max-w-xs">
+            © 2024 Sidineia Danetti - Terapeuta Sistêmica &amp; Constelação Familiar. Todos os direitos reservados.
+        </p>
+</div>
+<div class="flex gap-8">
+<a class="font-label-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Termos</a>
+<a class="font-label-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Privacidade</a>
+<a class="font-label-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Contato</a>
+</div>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-secondary-fixed transition-colors border border-secondary/10" href="#">
+<span class="material-symbols-outlined text-secondary">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-secondary-fixed transition-colors border border-secondary/10" href="#">
+<span class="material-symbols-outlined text-secondary">mail</span>
+</a>
+</div>
+</footer>
+<script>
+    // Micro-interactions and parallax effect
+    document.addEventListener('mousemove', (e) => {
+        const pattern = document.querySelector('.bg-pattern');
+        if(pattern) {
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            pattern.style.backgroundPosition = `${x * 10}px ${y * 10}px`;
+        }
+    });
+
+    // Smooth reveal on scroll
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-10');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('section').forEach(section => {
+        section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+        observer.observe(section);
+    });
+</script>
+</body></html>

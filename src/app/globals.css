@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+@layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+  }
+  .luxury-gradient {
+    background: linear-gradient(45deg, #775a19 0%, #fed488 50%, #e9c176 100%);
+  }
+  .emerald-glow {
+    box-shadow: 0 20px 40px -15px rgba(4, 57, 39, 0.1);
+  }
+  .video-frame {
+    position: relative;
+    padding: 2px;
+    background: linear-gradient(45deg, #775a19, #fed488, #775a19);
+    border-radius: 12px;
+  }
+  .bg-pattern {
+    background-image: radial-gradient(theme('colors.surface-variant') 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+@layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+  }
+  .luxury-gradient {
+    background: linear-gradient(45deg, #775a19 0%, #fed488 50%, #e9c176 100%);
+  }
+  .emerald-glow {
+    box-shadow: 0 20px 40px -15px rgba(4, 57, 39, 0.1);
+  }
+  .video-frame {
+    position: relative;
+    padding: 2px;
+    background: linear-gradient(45deg, #775a19, #fed488, #775a19);
+    border-radius: 12px;
+  }
+  .bg-pattern {
+    background-image: radial-gradient(var(--color-surface-variant) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
